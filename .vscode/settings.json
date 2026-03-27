@@ -1,5 +1,12 @@
 {
   "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "tailwindCSS.experimental.configFile": "frontend/tailwind.config.js",
   "search.exclude": {
     "**/node_modules": true
   },
