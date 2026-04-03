@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "framework": "vite",
+  "env": {
+    "VITE_API_URL": "@vite_api_url",
+    "VITE_TURNSTILE_SITE_KEY": "@vite_turnstile_site_key"
+  },
+  "cli": {
+    "regions": ["iad1"]
+  }
+}
