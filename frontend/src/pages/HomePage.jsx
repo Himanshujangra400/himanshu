@@ -261,20 +261,20 @@ function HomePage() {
       </AnimatedSection>
 
       <AnimatedSection className="cta-band rounded-3xl p-6 text-center sm:p-10" delay={0.02}>
-        <p className="section-kicker section-kicker-contrast">Ready to Build</p>
-        <h2 className="font-heading text-3xl text-white sm:text-5xl">If You Need a Builder Who Delivers, Let Us Talk.</h2>
-        <p className="mx-auto mt-3 max-w-2xl text-slate-200">
+        <p className="section-kicker">Ready to Build</p>
+        <h2 className="font-heading text-3xl text-slate-900 sm:text-5xl">If You Need a Builder Who Delivers, Let Us Talk.</h2>
+        <p className="mx-auto mt-3 max-w-2xl text-slate-700">
           I can help you ship faster, simplify workflows, and launch with confidence.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
-          <Link to="/contact" className="rounded-xl bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-slate-100">
+          <Link to="/contact" className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700">
             Start a Conversation
           </Link>
-          <Link to="/resume" className="rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
+          <Link to="/resume" className="rounded-xl border border-blue-300 bg-white px-6 py-3 font-semibold text-blue-600 transition hover:bg-blue-50">
             View Resume
           </Link>
         </div>
-        <p className="mt-5 text-sm font-semibold text-cyan-100">I build calm systems for chaotic problems.</p>
+        <p className="mt-5 text-sm font-semibold text-slate-600">Building elegant solutions for complex problems.</p>
       </AnimatedSection>
     </>
   )
