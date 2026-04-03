@@ -1,10 +1,10 @@
 export const profile = {
   name: 'Himanshu Jangra',
-  title: 'Full Stack Software Engineer',
+  title: 'Full Stack Engineer & Creative Developer',
   tagline:
-    'Designing and building scalable, maintainable web applications with precision and attention to detail.',
+    'Building modern, performant, and beautifully crafted digital experiences.',
   shortIntro:
-    'Focused on creating high-quality software solutions that drive business value through clean architecture and rigorous engineering practices.',
+    'I combine technical excellence with thoughtful design to create web applications that perform and delight.',
   photo: null,
   resumeUrl: '/resume',
   college: 'Buddha College, Ramba, Karnal',
