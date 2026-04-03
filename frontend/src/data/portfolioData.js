@@ -1,10 +1,10 @@
 export const profile = {
-  name: 'Himanshu',
-  title: 'Full Stack Product Developer',
+  name: 'Himanshu Jangra',
+  title: 'Full Stack Software Engineer',
   tagline:
-    'I turn messy workflows into fast, reliable web products that teams can trust every day.',
+    'Designing and building scalable, maintainable web applications with precision and attention to detail.',
   shortIntro:
-    'I do not build for portfolio screenshots. I build for speed, clarity, and measurable business outcomes.',
+    'Focused on creating high-quality software solutions that drive business value through clean architecture and rigorous engineering practices.',
   photo: null,
   resumeUrl: '/resume',
   college: 'Buddha College, Ramba, Karnal',
@@ -33,46 +33,46 @@ export const skills = [
 
 export const services = [
   {
-    title: 'Frontend That Converts',
-    detail: 'Clear information hierarchy, crisp UX flows, and reusable components built for speed and trust.',
+    title: 'Full Stack Development',
+    detail: 'End-to-end web application development with modern frameworks, clean code principles, and production-ready deployment.',
   },
   {
-    title: 'Backend That Does Not Break',
-    detail: 'Stable APIs, predictable data flow, and practical validation that supports real operations.',
+    title: 'System Architecture',
+    detail: 'Designing scalable backend systems with robust API design, database optimization, and security best practices.',
   },
   {
-    title: 'MVP to Production Delivery',
-    detail: 'From scope to deployment with execution discipline, feedback loops, and product-first prioritization.',
+    title: 'Technical Leadership',
+    detail: 'Guiding projects from conception through delivery with code quality, testing discipline, and continuous improvement.',
   },
 ]
 
 export const strengths = [
-  'Product thinking before feature coding',
-  'Strong frontend and backend integration',
-  'Clear communication with fast iteration',
-  'Ownership from requirement to deployment',
+  'Technical problem-solving and system design',
+  'Full-stack capability with strong integration',
+  'Professional communication and documentation',
+  'Quality assurance and testing discipline',
 ]
 
 export const achievements = [
-  'Delivered production projects with live users and operational workflows.',
-  'Handled full modules from UI to API and data persistence without handoff gaps.',
-  'Improved readability and user flow across dashboard-heavy interfaces.',
+  'Delivered multiple production applications with active user bases.',
+  'Managed complete development cycles from architecture to deployment and maintenance.',
+  'Maintained high code quality standards and comprehensive test coverage.',
 ]
 
 export const experience = [
   {
-    role: 'Full Stack Product Builder',
+    role: 'Full Stack Developer',
     period: '2025 - Present',
-    type: 'Execution and Delivery',
+    type: 'Full Cycle Development',
     impact:
-      'Shipped complete web products with deployment, role-based workflows, and maintainable architecture.',
+      'Architecting and delivering complete web applications with focus on scalability, reliability, and maintainability.',
   },
   {
-    role: 'Frontend and UX-Focused Engineer',
+    role: 'Software Engineer',
     period: '2024 - Present',
-    type: 'Interface and Interaction Design',
+    type: 'Technology & Implementation',
     impact:
-      'Designed cleaner interaction paths and improved comprehension in multi-step product journeys.',
+      'Building robust frontend and backend systems with emphasis on code quality, performance optimization, and user experience.',
   },
 ]
 
@@ -153,7 +153,7 @@ export const projects = [
 ]
 
 export const resumeSummary =
-  'Full stack developer focused on turning operational chaos into predictable digital workflows. Shipped 12+ product modules across React and Node.js systems, with 5+ live deployments and strong ownership from requirements to release.'
+  'Software engineer with comprehensive full-stack expertise in modern web technologies. Experienced in designing and implementing scalable applications, with proven track record of delivering production-ready solutions. Strong foundation in software architecture, system design, and engineering best practices.'
 
 export const resumeSkillGroups = [
   {
@@ -176,23 +176,23 @@ export const resumeSkillGroups = [
 
 export const resumeExperience = [
   {
-    role: 'Full Stack Product Developer',
-    company: 'Independent Projects',
+    role: 'Software Engineer - Full Stack',
+    company: 'Independent Development',
     period: '2024 - Present',
     bullets: [
-      'Delivered 5+ production deployments and built 20+ end-to-end modules across UI, API, and database layers.',
-      'Reduced workflow confusion by replacing chat-based coordination with centralized product dashboards and structured modules.',
-      'Owned full release lifecycle: requirement breakdown, implementation, deployment, iteration, and post-launch fixes.',
+      'Architected and deployed 5+ production web applications serving active user bases with high availability requirements.',
+      'Designed scalable system architecture with focus on performance optimization, security, and maintainability.',
+      'Implemented comprehensive testing strategies and continuous integration workflows to ensure code quality and deployment reliability.',
     ],
   },
   {
-    role: 'Frontend and UX Engineer',
-    company: 'Product-Focused Builds',
+    role: 'Software Developer',
+    company: 'Technology Projects',
     period: '2024 - Present',
     bullets: [
-      'Designed responsive interfaces with clearer information hierarchy, increasing task clarity across multi-step user journeys.',
-      'Built reusable UI patterns and utility components to speed up implementation and maintain consistency across pages.',
-      'Improved perceived performance with route-level splitting, reduced-motion safeguards, and lightweight animations.',
+      'Developed responsive web interfaces using modern frontend frameworks with emphasis on user experience and accessibility.',
+      'Created clean, well-documented APIs with proper authentication, validation, and error handling.',
+      'Optimized application performance through code profiling, database optimization, and frontend rendering improvements.',
     ],
   },
 ]
@@ -243,7 +243,7 @@ export const resumeCertifications = [
 ]
 
 export const resumeHighlights = [
-  '12+ product modules shipped with full-stack ownership',
-  '5+ live deployments across Vercel and Render',
-  'Strong execution style focused on clarity, reliability, and measurable outcomes',
+  'Production experience across full technology stack with focus on scalability and reliability',
+  'Proven ability to deliver complex projects from architecture through deployment and maintenance',
+  'Strong commitment to code quality, testing discipline, and continuous improvement',
 ]

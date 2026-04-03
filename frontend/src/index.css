@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 :root {
-  color: #0f1f2e;
-  background-color: #f5f8fc;
+  color: #1a1a2a;
+  background-color: #f8f9fb;
   font-family: 'DM Sans', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,9 +30,9 @@ body {
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   background:
-    radial-gradient(circle at 8% 10%, rgba(14, 165, 233, 0.1), transparent 28%),
-    radial-gradient(circle at 84% 0%, rgba(15, 118, 110, 0.11), transparent 34%),
-    linear-gradient(180deg, #f5f8fc 0%, #f9fcff 50%, #f5f8fc 100%);
+    radial-gradient(circle at 15% 20%, rgba(52, 73, 101, 0.08), transparent 35%),
+    radial-gradient(circle at 85% 5%, rgba(52, 73, 101, 0.06), transparent 40%),
+    linear-gradient(180deg, #f8f9fb 0%, #fafbfc 50%, #f8f9fb 100%);
   background-size: 140% 140%;
   animation: gradientDrift 18s ease-in-out infinite;
 }
@@ -43,21 +43,21 @@ a {
 }
 
 .panel {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(15, 32, 45, 0.1);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(52, 73, 101, 0.12);
   backdrop-filter: blur(10px);
-  box-shadow: 0 18px 48px -36px rgba(15, 35, 53, 0.35);
+  box-shadow: 0 18px 48px -36px rgba(52, 73, 101, 0.25);
   contain: layout paint;
 }
 
 .panel-hero {
-  border-color: rgba(14, 116, 144, 0.18);
-  box-shadow: 0 26px 62px -42px rgba(14, 116, 144, 0.35);
+  border-color: rgba(52, 73, 101, 0.16);
+  box-shadow: 0 26px 62px -42px rgba(52, 73, 101, 0.3);
 }
 
 .panel-contrast {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.97), rgba(245, 251, 255, 0.95));
-  border-color: rgba(14, 116, 144, 0.16);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 249, 251, 0.96));
+  border-color: rgba(52, 73, 101, 0.14);
 }
 
 .section-kicker {
@@ -65,14 +65,14 @@ a {
   align-items: center;
   gap: 0.45rem;
   border-radius: 999px;
-  border: 1px solid rgba(14, 116, 144, 0.2);
-  background: rgba(224, 242, 254, 0.55);
+  border: 1px solid rgba(52, 73, 101, 0.25);
+  background: rgba(52, 73, 101, 0.08);
   padding: 0.28rem 0.62rem;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #0f5f74;
+  color: #344965;
 }
 
 .section-kicker-contrast {
@@ -82,8 +82,8 @@ a {
 }
 
 .headline-gradient {
-  color: #0f172a;
-  background: linear-gradient(110deg, #0f172a 0%, #0e7490 55%, #0f766e 100%);
+  color: #1a1a2a;
+  background: linear-gradient(110deg, #1a1a2a 0%, #344965 55%, #2c3e5a 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,12 +124,12 @@ a {
 .cta-band {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(14, 116, 144, 0.3);
+  border: 1px solid rgba(52, 73, 101, 0.25);
   background:
-    radial-gradient(circle at 88% 14%, rgba(34, 211, 238, 0.3), transparent 28%),
-    radial-gradient(circle at 12% 82%, rgba(45, 212, 191, 0.28), transparent 34%),
-    linear-gradient(122deg, #0f172a 0%, #0e7490 58%, #0f766e 100%);
-  box-shadow: 0 30px 64px -34px rgba(14, 116, 144, 0.5);
+    radial-gradient(circle at 88% 14%, rgba(78, 102, 134, 0.15), transparent 28%),
+    radial-gradient(circle at 12% 82%, rgba(78, 102, 134, 0.12), transparent 34%),
+    linear-gradient(122deg, #1a1a2a 0%, #344965 58%, #2c3e5a 100%);
+  box-shadow: 0 30px 64px -34px rgba(52, 73, 101, 0.35);
 }
 
 .site-header {
@@ -186,13 +186,13 @@ a {
 }
 
 .nav-pill:focus-visible {
-  outline: 2px solid rgba(14, 116, 144, 0.55);
+  outline: 2px solid rgba(52, 73, 101, 0.55);
   outline-offset: 2px;
 }
 
 .btn-accent {
-  background: linear-gradient(110deg, #0f766e, #0e7490);
-  box-shadow: 0 16px 28px -18px rgba(13, 148, 136, 0.65);
+  background: linear-gradient(110deg, #344965, #2c3e5a);
+  box-shadow: 0 16px 28px -18px rgba(52, 73, 101, 0.5);
   transition: transform 200ms ease, box-shadow 220ms ease, filter 200ms ease;
   min-height: 44px;
   touch-action: manipulation;
@@ -282,7 +282,7 @@ a {
   bottom: 0.12rem;
   width: 4px;
   border-radius: 999px;
-  background: linear-gradient(180deg, #0e7490, #0f766e);
+  background: linear-gradient(180deg, #344965, #2c3e5a);
 }
 
 .resume-card,
@@ -301,7 +301,7 @@ a {
   height: 0.42rem;
   width: 0.42rem;
   border-radius: 999px;
-  background: #0f766e;
+  background: #344965;
   flex-shrink: 0;
 }
 
@@ -344,7 +344,7 @@ main > * {
 
   .btn-primary:hover,
   .btn-accent:hover {
-    box-shadow: 0 18px 36px -22px rgba(14, 116, 144, 0.7);
+    box-shadow: 0 18px 36px -22px rgba(52, 73, 101, 0.55);
   }
 
   .btn-secondary:hover {
@@ -381,7 +381,7 @@ a.animated-link {
   bottom: 0.3rem;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(14, 116, 144, 0.72), rgba(20, 184, 166, 0.72));
+  background: linear-gradient(90deg, rgba(52, 73, 101, 0.72), rgba(44, 62, 90, 0.72));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 220ms ease;
@@ -400,15 +400,15 @@ a.animated-link {
 }
 
 .project-preview-tone-1 {
-  background: linear-gradient(120deg, #0f766e, #0ea5e9 55%, #164e63);
+  background: linear-gradient(120deg, #344965, #4e6686 55%, #2c3e5a);
 }
 
 .project-preview-tone-2 {
-  background: linear-gradient(120deg, #0f172a, #0e7490 55%, #14b8a6);
+  background: linear-gradient(120deg, #1a1a2a, #344965 55%, #2c3e5a);
 }
 
 .project-preview-tone-3 {
-  background: linear-gradient(120deg, #14532d, #0f766e 45%, #155e75);
+  background: linear-gradient(120deg, #2c3e5a, #344965 45%, #3a4f68);
 }
 
 .project-preview-overlay {
@@ -448,7 +448,7 @@ a.animated-link {
 .type-cursor {
   display: inline-block;
   margin-left: 0.1em;
-  color: #0f766e;
+  color: #344965;
   animation: cursorBlink 1s steps(2, start) infinite;
 }
 
