@@ -270,9 +270,9 @@ function HomePage() {
           <Link to="/contact" className="rounded-xl bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-slate-100">
             Start a Conversation
           </Link>
-          <a href={profile.resumeUrl} download className="rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
-            Download Resume
-          </a>
+          <Link to="/resume" className="rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
+            View Resume
+          </Link>
         </div>
         <p className="mt-5 text-sm font-semibold text-cyan-100">I build calm systems for chaotic problems.</p>
       </AnimatedSection>

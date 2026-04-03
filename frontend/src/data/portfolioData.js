@@ -1,16 +1,16 @@
 export const profile = {
-  name: 'Gaurav',
+  name: 'Himanshu',
   title: 'Full Stack Product Developer',
   tagline:
     'I turn messy workflows into fast, reliable web products that teams can trust every day.',
   shortIntro:
     'I do not build for portfolio screenshots. I build for speed, clarity, and measurable business outcomes.',
-  photo: '/whatsapp-profile.jpeg',
-  resumeUrl: '/resume.pdf',
+  photo: null,
+  resumeUrl: '/resume',
   college: 'Buddha College, Ramba, Karnal',
-  email: 'gavim0009@gmail.com',
-  phone: '+91 8708195687',
-  whatsappNumber: '918708195687',
+  email: 'jangrahimanshu076@gmail.com',
+  phone: '+91 8059172716',
+  whatsappNumber: '918059172716',
 }
 
 export const stats = [
@@ -150,4 +150,100 @@ export const projects = [
     live: '#',
     code: 'https://github.com/gauravkataria00/YANKEE-brand.git',
   },
+]
+
+export const resumeSummary =
+  'Full stack developer focused on turning operational chaos into predictable digital workflows. Shipped 12+ product modules across React and Node.js systems, with 5+ live deployments and strong ownership from requirements to release.'
+
+export const resumeSkillGroups = [
+  {
+    title: 'Programming & Core',
+    items: ['JavaScript', 'C++', 'Data Structures', 'REST API Design'],
+  },
+  {
+    title: 'Frontend',
+    items: ['React.js', 'Vite', 'Tailwind CSS', 'Responsive UI', 'Framer Motion'],
+  },
+  {
+    title: 'Backend & Database',
+    items: ['Node.js', 'Express.js', 'MongoDB', 'Authentication', 'Validation & Rate Limiting'],
+  },
+  {
+    title: 'Tools & Delivery',
+    items: ['Git & GitHub', 'Vercel', 'Render', 'Postman', 'CI Workflows'],
+  },
+]
+
+export const resumeExperience = [
+  {
+    role: 'Full Stack Product Developer',
+    company: 'Independent Projects',
+    period: '2024 - Present',
+    bullets: [
+      'Delivered 5+ production deployments and built 20+ end-to-end modules across UI, API, and database layers.',
+      'Reduced workflow confusion by replacing chat-based coordination with centralized product dashboards and structured modules.',
+      'Owned full release lifecycle: requirement breakdown, implementation, deployment, iteration, and post-launch fixes.',
+    ],
+  },
+  {
+    role: 'Frontend and UX Engineer',
+    company: 'Product-Focused Builds',
+    period: '2024 - Present',
+    bullets: [
+      'Designed responsive interfaces with clearer information hierarchy, increasing task clarity across multi-step user journeys.',
+      'Built reusable UI patterns and utility components to speed up implementation and maintain consistency across pages.',
+      'Improved perceived performance with route-level splitting, reduced-motion safeguards, and lightweight animations.',
+    ],
+  },
+]
+
+export const resumeProjects = [
+  {
+    name: 'Free Fire Scrim Arena',
+    stack: 'React, Node.js, Express, MongoDB',
+    bullets: [
+      'Built a tournament and scrim platform with scheduling, leaderboards, and premium-access modules for recurring usage.',
+      'Centralized match operations into one workflow, replacing fragmented chat coordination and reducing scheduling friction.',
+      'Delivered modular architecture for rankings, events, and plan-based feature control to support future expansion.',
+    ],
+  },
+  {
+    name: 'Dairy Manager Pro',
+    stack: 'React, Node.js, Express, MongoDB',
+    bullets: [
+      'Engineered admin-first dairy operations panel with daily tracking, record management, and API-backed updates.',
+      'Improved consistency of daily entries by moving manual tracking into structured digital workflows.',
+      'Implemented maintainable backend routes and validation to keep operational data reliable under frequent updates.',
+    ],
+  },
+  {
+    name: 'YANKEE Brand Website',
+    stack: 'React, Tailwind CSS',
+    bullets: [
+      'Redesigned brand narrative and CTA flow for clearer messaging and faster value communication in first-view sections.',
+      'Built reusable section-driven layout system to accelerate future content updates without visual inconsistency.',
+      'Delivered responsive, polished UI focused on trust-building and conversion-oriented presentation.',
+    ],
+  },
+]
+
+export const resumeEducation = [
+  {
+    degree: 'Bachelor of Computer Applications (BCA)',
+    institution: 'Buddha College, Ramba, Karnal',
+    period: '4th Semester (Expected 2026)',
+    details: 'Focused on software engineering fundamentals, full stack development, and practical product execution.',
+  },
+]
+
+export const resumeCertifications = [
+  'Full Stack MERN Development - Practical Project Track',
+  'Frontend Performance and Responsive Design - Applied Learning',
+  'Git and Version Control Workflow - Project-Based Practice',
+]
+
+export const resumeHighlights = [
+  '12+ product modules shipped with full-stack ownership',
+  '5+ live deployments across Vercel and Render',
+  'Strong execution style focused on clarity, reliability, and measurable outcomes',
 ]

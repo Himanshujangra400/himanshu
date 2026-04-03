@@ -25,6 +25,7 @@ function SiteLayout() {
     { to: '/about', label: 'About' },
     { to: '/projects', label: 'Projects' },
     { to: '/contact', label: 'Contact' },
+    { to: '/resume', label: 'Resume' },
   ]
 
   useEffect(() => {
@@ -155,7 +156,9 @@ function SiteLayout() {
                   to={item.to}
                   end={item.end}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={({ isActive }) => `mobile-nav-link nav-pill ${isActive ? 'nav-pill-active' : ''}`}
+                  className={({ isActive }) =>
+                    `mobile-nav-link nav-pill ${isActive ? 'nav-pill-active mobile-nav-link-active' : ''}`
+                  }
                 >
                   {item.label}
                 </NavLink>
